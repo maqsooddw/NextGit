@@ -1,0 +1,35 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+ul {
+  list-style: disc; /* or circle, square */
+  margin: 1em 0;
+  padding-left: 1.5em;
+}
+ol {
+  list-style-type: decimal; /* Ensures numbers are shown */
+  margin-left: 1.5em;       /* Indent the list items */
+}
+h1 {
+  text-decoration: solid;
+  text-size-adjust: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 50px;
+  font-weight: 100px;
+  color: blue;
+}
+
+h3 {
+  text-decoration: solid;
+  text-size-adjust: 50px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  font-weight: 100px;
+  color: rgb(255, 0, 106);
+}
