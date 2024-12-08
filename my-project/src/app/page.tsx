@@ -1,11 +1,8 @@
-import Image from "next/image";
-import Header from "./components/Header";
-
 export default function Home() {
   return (
 <div>
 
-<Header/>
+<p>hello form page tsx main children</p>
 </div>
   
   );
