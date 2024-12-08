@@ -1,5 +1,6 @@
 import React from 'react';
 import { Josefin_Sans } from 'next/font/google';
+import { space } from 'postcss/lib/list';
 
 const josefinSans = Josefin_Sans({
   subsets: ['latin'],
@@ -19,7 +20,7 @@ export default function Header() {
           </div>
           {/* Email Text */}
           <div
-            className={` w-[171] h-[16] hidden sm:block`}
+            className={` w-[171] h-[16] hidden sm:block mr-[48px]`}
           >
             mhhasanul@gmail.com
           </div>

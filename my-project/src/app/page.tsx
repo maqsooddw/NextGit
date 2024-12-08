@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-<div>
+<div className="flex">
 
-<p>hello form page tsx main children</p>
+<p className="flex">hello form page tsx main children</p>
 </div>
   
   );
